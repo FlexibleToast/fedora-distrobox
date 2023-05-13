@@ -47,4 +47,4 @@ jobs:
             ghcr.io/${{ env.REPO_NAME }}:${{ env.DATE }},
             ghcr.io/${{ env.REPO_NAME }}:38,
             ghcr.io/${{ env.REPO_NAME }}:latest
-          platforms: linux/amd64
+          platforms: linux/amd64, linux/arm64
