@@ -42,7 +42,7 @@ jobs:
         with:
           file: ./Containerfile
           push: true
-          tags: >
+          tags: |
             ghcr.io/${{ env.REPO_NAME }}:${{ github.sha }}
             ghcr.io/${{ env.REPO_NAME }}:${{ env.DATE }}
             ghcr.io/${{ env.REPO_NAME }}:38
