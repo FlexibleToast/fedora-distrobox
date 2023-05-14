@@ -2,4 +2,4 @@ code
 ansible
 python3-ansible-lint
 helm
-origin-clients
+kubernetes-client
