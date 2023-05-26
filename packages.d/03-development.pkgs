@@ -1,6 +1,7 @@
+ansible
 code
 google-chrome-stable
-ansible
-python3-ansible-lint
 helm
 kubernetes-client
+python3-ansible-lint
+terraform
