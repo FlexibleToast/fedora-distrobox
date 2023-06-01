@@ -47,4 +47,4 @@ jobs:
             ghcr.io/${{ env.REPO_NAME }}:${{ env.DATE }}-toast
             ghcr.io/${{ env.REPO_NAME }}:38-toast
             ghcr.io/${{ env.REPO_NAME }}:latest-toast
-          platforms: linux/amd64, linux/arm64
+          platforms: linux/amd64
